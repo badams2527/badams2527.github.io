@@ -2,17 +2,27 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+}
+
 .view-container {
-    margin-top: 100px;
+    margin-top: 51px;
 }
 
 .main-brand {
     color: #000000 !important;
-    font-size: 36px;
+    font-size: 42px;
 }
 
 .spaced-letters {
     letter-spacing: 15px;
+}
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom: none;
 }
 
 .navbar-default {
@@ -27,4 +37,17 @@ body {
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #777777 !important;
+}
+
+.about-paragraph {
+    width: 600px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: url("../img/cincy.png") no-repeat scroll 50% 50%;
+    background-size: cover;
+    min-height: 800px;
 }
