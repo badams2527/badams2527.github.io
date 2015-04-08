@@ -49,5 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 .about {
     background: url("../img/cincy.png") no-repeat scroll 50% 50%;
     background-size: cover;
+}
+
+.about, .examples, .experience, .contact {
     min-height: 800px;
 }
