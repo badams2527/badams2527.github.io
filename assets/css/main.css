@@ -55,3 +55,14 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 750px;
     padding-top: 55px;
 }
+
+.work-example {
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.insta-average {
+    background: url("../img/insta-average.png") no-repeat;
+}
