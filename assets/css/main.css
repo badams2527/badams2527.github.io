@@ -86,3 +86,15 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px;
     width: 250px;
 }
+
+.sel {
+    background: url("../img/eclipse.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+.im {
+    background: url("../img/iphone.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
