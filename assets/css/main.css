@@ -57,8 +57,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .work-example {
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 350px;
+    max-height: 350px;
     min-width: 250px;
     max-width: 250px;
 }
@@ -77,6 +77,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .insta-average {
     background: url("../img/insta-average.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+.ense {
+    background: url("../img/ense.png") no-repeat;
     height: 250px;
     width: 250px;
 }
