@@ -101,6 +101,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 250px;
 }
 
+@media (max-width: 767px) {
+    .mobile-centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 .sel {
     background: url("../img/eclipse.png") no-repeat;
     height: 250px;
