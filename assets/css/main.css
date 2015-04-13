@@ -70,8 +70,12 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 6em;
     text-align: center;
-    width: 90%;
     color: #333;
+}
+
+.work-description {
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .insta-average {
