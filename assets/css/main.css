@@ -106,5 +106,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
+.work-exp {
+    margin-bottom: 100px;
+    padding-bottom: 5px;
+    border-bottom: dotted #000000 thin;
+}
+
+.spacer {
+    height: 40px;
+}
+
 
 /* Contact Me */
