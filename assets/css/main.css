@@ -22,6 +22,14 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 15px;
 }
 
+@media (max-width: 767px) {
+    .spaced-letters {
+        letter-spacing: 8px;
+    }
+}
+
+/* navbar */
+
 .navbar {
     background-color: #ffffff;
     border-bottom: none;
