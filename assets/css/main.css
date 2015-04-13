@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 6em;
     text-align: center;
-    width: 95%;
+    width: 90%;
     color: #333;
 }
 
@@ -107,13 +107,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .work-exp {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     padding-bottom: 5px;
     border-bottom: dotted #000000 thin;
 }
 
 .spacer {
     height: 40px;
+}
+
+.work-dates {
+    color: #696969;
 }
 
 
