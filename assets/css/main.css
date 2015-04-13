@@ -1,3 +1,5 @@
+/* Page layout */
+
 body {
     font-family: 'Raleway', sans-serif;
 }
@@ -39,6 +41,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #777777 !important;
 }
 
+/* About Me */
+
 .about-paragraph {
     width: 600px;
     margin: 0 auto;
@@ -56,12 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 55px;
 }
 
-.work-example {
-    min-height: 350px;
-    max-height: 350px;
-    min-width: 250px;
-    max-width: 250px;
-}
+/* Examples of my work */
 
 .work-title {
     text-align: center;
@@ -71,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 6em;
     text-align: center;
-    width: 100%;
+    width: 95%;
     color: #333;
 }
 
@@ -98,3 +97,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 250px;
     width: 250px;
 }
+
+
+/* My Experiences */
+
+
+/* Contact Me */
