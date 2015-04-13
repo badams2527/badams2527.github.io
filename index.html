@@ -63,15 +63,15 @@
                         I am a full stack developer, specializing in modern web technologies. My primary focus is on
                         Javascript, Python, and C# development. I have been working professionally since 2012, both as a
                         consultant and a regular employee. I have written web applications using Python/Flask, Node.js,
-                        .NET Web Forms, .NET MVC, and .NET Web API. I work frequently with AngularJS for client-side code as
-                        well as jQuery and plain JavaScript.
+                        .NET MVC, and .NET Web API, and .NET Web Forms. I work frequently with AngularJS for client-side
+                        code as well as jQuery and plain JavaScript.
                     </p>
                 </div>
                 <div class="row">
                     <p class="about-paragraph">
                         While not writing code or studying, I enjoy sports and music. I am an avid Cincinnati Bearcat and
                         Cincinnati Reds fan. I also love basketball, mostly the NBA. I am a founding father of the Beta
-                        Omicron chapter of Theta Chi Fraternity, and I am also a member of the ACM chapter of UC.
+                        Omicron chapter of Theta Chi Fraternity, and I am also a member of the ACM chapter at UC.
                     </p>
                 </div>
             </div>
@@ -84,11 +84,18 @@
                     <div class="row">
                         <div class="col-lg-4 work-example">
                             <div class="row">
-                                <h4>Insta-Average</h4>
+                                <h3 class="work-title">Insta-Average</h3>
                             </div>
-                            <div class="row">
-                                <img src="assets/img/insta-average.png" alt="Insta-Average"/>
-                            </div>
+                            <a style="display: block" href="http://github.com/badams2527/insta-average">
+                                <div class="row insta-average">
+                                    <p id="insta-description" style="visibility: hidden" class="work-description">
+                                        An application that takes 20 popular images from the Instagram API every hour
+                                        and calculates the average color of the image. It then stores it in RethinkDB
+                                        in order to run queries over to find the average color of photos posted to
+                                        Instagram.
+                                    </p>
+                                </div>
+                            </a>
                         </div>
                         <div class="col-lg-4"></div>
                         <div class="col-lg-4 work-example">2</div>
@@ -115,4 +122,18 @@
         </div>
     </div>
   </body>
+
+  <script type="text/javascript">
+      $(function() {
+          $(".insta-average")
+                  .mouseover(function() {
+                      $(this).css("background", "url('assets/img/insta-average-hover.png') no-repeat");
+                      $("#insta-description").css("visibility", "visible");
+                  })
+                  .mouseout(function() {
+                      $(this).css("background", "url('assets/img/insta-average.png') no-repeat");
+                      $("#insta-description").css("visibility", "hidden");
+                  })
+      })
+  </script>
 </html>
