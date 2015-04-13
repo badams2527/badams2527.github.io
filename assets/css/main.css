@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
     .spaced-letters {
         letter-spacing: 1px;
     }
+
+    .navbar-brand {
+        padding: 0 0 0 0;
+    }
 }
 
 /* navbar */
@@ -52,7 +56,6 @@ h1, h2, h3, h4, h5, h6 {
 /* About Me */
 
 .about-paragraph {
-    width: 600px;
     margin: 0 auto;
     padding-top: 15px;
     font-size: 16px;
