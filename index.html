@@ -63,34 +63,96 @@
                         I am a full stack developer, specializing in modern web technologies. My primary focus is on
                         Javascript, Python, and C# development. I have been working professionally since 2012, both as a
                         consultant and a regular employee. I have written web applications using Python/Flask, Node.js,
-                        .NET Web Forms, .NET MVC, and .NET Web API. I work frequently with AngularJS for client-side code as
-                        well as jQuery and plain JavaScript.
+                        .NET MVC, and .NET Web API, and .NET Web Forms. I work frequently with AngularJS for client-side
+                        code as well as jQuery and plain JavaScript.
                     </p>
                 </div>
                 <div class="row">
                     <p class="about-paragraph">
                         While not writing code or studying, I enjoy sports and music. I am an avid Cincinnati Bearcat and
                         Cincinnati Reds fan. I also love basketball, mostly the NBA. I am a founding father of the Beta
-                        Omicron chapter of Theta Chi Fraternity, and I am also a member of the ACM chapter of UC.
+                        Omicron chapter of Theta Chi Fraternity, and I am also a member of the ACM chapter at UC.
                     </p>
                 </div>
             </div>
         </div>
         <div class="row examples" id="examples">
             <div class="container">
-                <h2 class="text-center">Examples of My Work</h2>
-                I'm currently working on moving a lot of my personal projects to <a href="http://github.com/badams2527">my Github account</a>!
-                <!--<div class="col-lg-12">-->
-                    <!--<div class="row">-->
-                        <!--<div class="col-lg-6 work-example">1</div>-->
-                        <!--<div class="col-lg-6 work-example">2</div>-->
-                    <!--</div>-->
-                    <!--<div class="row">-->
-                        <!--<div class="col-lg-6 work-example">3</div>-->
-                        <!--<div class="col-lg-6 work-example">4</div>-->
-                    <!--</div>-->
-                <!--</div>-->
-                Quick samples coming soon!
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <h2 class="text-center">Examples of My Work</h2>
+                        <h4 class="text-center">
+                            I'm currently working on moving a lot of my personal projects to
+                            <a href="http://github.com/badams2527">my GitHub account</a>!
+                        </h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 work-example">
+                            <div class="row">
+                                <h3 class="work-title">ENSE</h3>
+                            </div>
+                            <a style="display: block" href="http://www.enseuk.co.uk">
+                                <div class="row ense">
+                                    <p id="ense-description" style="visibility: hidden" class="work-description">
+                                        An application written for the buying consortium ENSE. It is built on Node.js
+                                        and RethinkDB. It features a member section where users can find information
+                                        about other companies in the consortium. Code snippets can be furnished upon
+                                        request.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 work-example"></div>
+                        <div class="col-md-4 work-example">
+                            <div class="row">
+                                <h3 class="work-title">Insta-Average</h3>
+                            </div>
+                            <a style="display: block" href="http://github.com/badams2527/insta-average">
+                                <div class="row insta-average">
+                                    <p id="insta-description" style="visibility: hidden" class="work-description">
+                                        An application that takes 20 popular images from the Instagram API every hour
+                                        and calculates the average color of the image. It then stores it in RethinkDB
+                                        in order to run queries over to find the average color of photos posted to
+                                        Instagram.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 work-example">
+                            <div class="row">
+                                <h3 class="work-title">Requirements Indexer</h3>
+                            </div>
+                            <a style="display: block" href="https://github.com/sir-sweet-baby-snow-fox/EECE3093SS15">
+                                <div class="row sel">
+                                    <p id="sel-description" style="visibility: hidden" class="work-description">
+                                        An Eclipse extension written as a team of four for our Software Engineering
+                                        Lab. It reads .txt files that contain project requirements, and indexes them. It
+                                        also can index a project's source code when the application is loaded.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 work-example"></div>
+                        <div class="col-md-4 work-example">
+                            <div class="row">
+                                <h3 class="work-title">Image Manipulator</h3>
+                            </div>
+                            <a style="display: block" href="https://github.com/Hazems-Camaroons/image-manipulation">
+                                <div class="row im">
+                                    <p id="im-description" style="visibility: hidden" class="work-description">
+                                        An iPhone app written for the Intro to iPhone Development class. We created
+                                        5 different transformations for a given image. The transformations were applied
+                                        on a pixel-by-pixel basis and the resulting image could be saved to the photo
+                                        library.
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row examples" id="experience">
@@ -107,4 +169,45 @@
         </div>
     </div>
   </body>
+
+  <script type="text/javascript">
+      $(function() {
+          $(".insta-average")
+                  .mouseover(function() {
+                      $(this).css("background", "url('assets/img/insta-average-hover.png') no-repeat");
+                      $("#insta-description").css("visibility", "visible");
+                  })
+                  .mouseout(function() {
+                      $(this).css("background", "url('assets/img/insta-average.png') no-repeat");
+                      $("#insta-description").css("visibility", "hidden");
+                  });
+          $(".ense")
+                  .mouseover(function() {
+                      $(this).css("background", "url('assets/img/ense-hover.png') no-repeat");
+                      $("#ense-description").css("visibility", "visible");
+                  })
+                  .mouseout(function() {
+                      $(this).css("background", "url('assets/img/ense.png') no-repeat");
+                      $("#ense-description").css("visibility", "hidden");
+                  });
+          $(".sel")
+                  .mouseover(function() {
+                      $(this).css("background", "url('assets/img/eclipse-hover.png') no-repeat");
+                      $("#sel-description").css("visibility", "visible");
+                  })
+                  .mouseout(function() {
+                      $(this).css("background", "url('assets/img/eclipse.png') no-repeat");
+                      $("#sel-description").css("visibility", "hidden");
+                  });
+          $(".im")
+                  .mouseover(function() {
+                      $(this).css("background", "url('assets/img/iphone-hover.png') no-repeat");
+                      $("#im-description").css("visibility", "visible");
+                  })
+                  .mouseout(function() {
+                      $(this).css("background", "url('assets/img/iphone.png') no-repeat");
+                      $("#im-description").css("visibility", "hidden");
+                  });
+      });
+  </script>
 </html>

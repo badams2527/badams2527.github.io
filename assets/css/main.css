@@ -55,3 +55,46 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 750px;
     padding-top: 55px;
 }
+
+.work-example {
+    min-height: 350px;
+    max-height: 350px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.work-title {
+    text-align: center;
+}
+
+.work-description {
+    position: absolute;
+    top: 6em;
+    text-align: center;
+    width: 100%;
+    color: #333;
+}
+
+.insta-average {
+    background: url("../img/insta-average.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+.ense {
+    background: url("../img/ense.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+.sel {
+    background: url("../img/eclipse.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+.im {
+    background: url("../img/iphone.png") no-repeat;
+    height: 250px;
+    width: 250px;
+}
