@@ -100,6 +100,11 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* My Experiences */
+.experience {
+    margin-top: 50px;
+    background: url("../img/work.png") no-repeat scroll 50% 50%;
+    background-size: cover;
+}
 
 
 /* Contact Me */
