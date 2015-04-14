@@ -32,8 +32,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.about, .examples, .experience, .contact {
+.about, .examples, .experience {
     min-height: 750px;
+    padding-top: 55px;
+}
+
+.contact {
+    min-height: 400px;
     padding-top: 55px;
 }
 
