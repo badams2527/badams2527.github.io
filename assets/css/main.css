@@ -108,22 +108,36 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.mobile-link {
+    color:#333333;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 .work-description {
     position: absolute;
     top: 6em;
     text-align: center;
     color: #333;
-}
-
-.work-description {
     padding-right: 15px;
     padding-left: 15px;
+}
+
+.work-description > a {
+    color: #333333;
+    text-decoration: none;
 }
 
 .insta-average {
     background: url("../img/insta-average.png") no-repeat;
     height: 250px;
     width: 250px;
+}
+
+#sel-description {
+    margin-top: .1em;
+    margin-left: 5px;
+    width: 240px;
 }
 
 .ense {
