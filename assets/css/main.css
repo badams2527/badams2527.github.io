@@ -134,22 +134,10 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
 }
 
-.insta-average {
-    background: url("../img/insta-average.png") no-repeat;
-    height: 250px;
-    width: 250px;
-}
-
 #sel-description {
     margin-top: .1em;
     margin-left: 5px;
     width: 240px;
-}
-
-.ense {
-    background: url("../img/ense.png") no-repeat;
-    height: 250px;
-    width: 250px;
 }
 
 @media (max-width: 767px) {
@@ -160,26 +148,8 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-.sel {
-    background: url("../img/eclipse.png") no-repeat;
-    height: 250px;
-    width: 250px;
-}
-
-.im {
-    background: url("../img/iphone.png") no-repeat;
-    height: 250px;
-    width: 250px;
-}
-
 
 /* My Experiences */
-.experience {
-    margin-top: 50px;
-    background: url("../img/work.png") no-repeat scroll 50% 50%;
-    background-size: cover;
-}
-
 .work-exp {
     margin-bottom: 70px;
     padding-bottom: 5px;
@@ -196,6 +166,13 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Contact Me */
+
+.contact {
+    margin-top: 50px;
+    background: url("../img/work.png") no-repeat scroll 50% 50%;
+    background-size: cover;
+}
+
 .contact-content {
     text-align: right;
     padding-right: 15px;
@@ -222,6 +199,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact-info-detail {
+    color: #000;
     vertical-align: top;
 }
 
